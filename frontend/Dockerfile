@@ -5,7 +5,7 @@ RUN npm ci --no-audit --no-fund --omit=dev
 COPY . ./
 RUN npm run build
 
-FROM nginx:alpine
+FROM nginx:latest
 COPY --from=builder /app/build /usr/share/nginx/html
 COPY ./nginx/default.conf /etc/nginx/conf.d
 EXPOSE 80

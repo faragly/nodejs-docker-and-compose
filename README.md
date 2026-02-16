@@ -2,7 +2,7 @@
 
 ## Информация о сервере
 
-IP адрес 158.160.222.186
+IP адрес 158.160.158.122
 
 Frontend https://popeye8.nomorepartiessbs.ru
 
