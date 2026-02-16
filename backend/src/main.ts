@@ -12,7 +12,7 @@ async function bootstrap() {
     allowedHeaders: 'Content-Type,Authorization',
     credentials: true,
     methods: 'GET,POST,PUT,DELETE,PATCH,OPTIONS',
-    origin: `http://localhost:${PORT}`,
+    origin: ['https://popeye8.nomorepartiessbs.ru', `http://localhost:${PORT}`],
   });
   await app.listen(PORT);
 }
